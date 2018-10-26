@@ -1,5 +1,5 @@
 package com.service;
 
-public class Volume {
+public class VolumeX {
 	int ruru = 10;
 }
