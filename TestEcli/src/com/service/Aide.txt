@@ -1,0 +1,29 @@
+LIVRAISON ExportCommentaires  :    https://drive.google.com/drive/folders/18B-F4vKiIOuj49I67H_YXIVGRupvVKlL
+
+
+06 38 58 07 35
+06 44 69 57 85  hangout:  ariellejulia6@gmail.com
+
+Carladouglas558   skype
+jusi9xx
+
+
+
+
+voici les étapes
+à suivre
+tu crées un user "Lionel" 
+tu l'ajoutes dans le groupe SCO THALES DOCS Export Commentaires
+"SCO THALES DOCS Export Commentaires"
+
+tu changes le paramétres "com.geodis.scheduled.commentsExport.scheduledjob.cronexpression=0 0 7 ? * MON"
+dans Alfresco-global.properties 
+par 
+"com.geodis.scheduled.commentsExport.scheduledjob.cronexpression=0 0/5   * ?"
+
+
+puis tu redémarres alfresco
+en faisant "./alfresco.sh restart"
+
+
+puis tu ajoutes tes documents/dossiers  dans "FACTURES CLIENTS"
